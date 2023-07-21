@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			margin: 10px;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3">Hello</div>
+	
+	<script>
+		function myEventFunction(){
+			alert('Hello Daniel');
+		}
+
+		var d3 = document.getElementById('div3');
+    
+		d3.addEventListener('click', myEventFunction);
+	</script>
+</body>
+</html>

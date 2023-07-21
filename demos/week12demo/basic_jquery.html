@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('#btn1').click(function(evt){
+				alert('click');
+			});
+
+			$('#btn1').hover(function(){
+				$('#btn1').addClass('colorclass');
+			}, function(){
+				$('#btn1').removeClass('colorclass');
+			});
+
+			$('#google-link').click(function(evt){
+				evt.preventDefault();
+				window.location.href = 'http://web.iit.edu';
+      alert('clicked google');
+			});
+
+		});
+	</script>
+	<style type="text/css">
+		#btn1 {
+			width: 150px;
+			height: 150px;
+			background-color: green;
+		}
+
+		.colorclass {
+			border: 4px solid red;
+		}
+	</style>
+</head>
+<body>
+	<a id="google-link" href="http://google.com">google</a>
+	<div id="btn1">
+
+	</div>
+</body>
+</html>

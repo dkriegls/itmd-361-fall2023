@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<style type="text/css">
+		#main-box {
+			width: 300px;
+			height: 300px;
+		}
+		.greenFill {
+			background-color: green;
+		}
+		.redFill {
+			background-color: red;
+			height: 500px !important;
+		}
+	</style>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#click1').click(function(){
+			$('#main-box').toggleClass('redFill');
+		});
+
+		$('#click2').click(function(){
+			$('#main-box').slideUp(1000, function(){
+				alert('Slide Up Done');
+			});
+		});
+
+		$('#click3').click(function(){
+			$('#main-box').slideDown();
+		});
+
+	});
+	</script>
+</head>
+<body>
+	<button id="click1">Click Me</button>
+	<button id="click2">Slide UP</button>
+	<button id="click3">Slide Down</button>
+	<div id="main-box" class="greenFill"></div>
+</body>
+</html>

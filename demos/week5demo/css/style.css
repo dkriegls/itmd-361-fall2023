@@ -1,0 +1,54 @@
+#caption {
+  color: red;
+}
+
+main {
+  background-color: pink;
+}
+
+li {
+  background-color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+h1 {
+  color: red; 
+  background-color: rgb(001, 110, 004);
+  font-family: helvetica;
+  float: left;
+  font-weight: 600;
+  font-weight: 200;
+  box-sizing: border-box;
+  font-size: 3em;
+  padding: 50px 10px 5px 10px;
+  margin: 5px 10px;
+  width: 35%;
+  border: 5px dashed red;
+  overflow: hidden;
+  border-radius: 50% 20%;
+  
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#second-headline {
+  color: blue;
+  font-size: 60px;
+  background-color: #56f442;
+}
+
+.first-para {
+  color:yellow;
+  font-size: 24px;
+}
+
+span {
+  color:red;
+  font-style: italic;    
+}

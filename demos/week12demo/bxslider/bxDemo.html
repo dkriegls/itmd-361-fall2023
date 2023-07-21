@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bxSlider</title>
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="jquery.bxslider.css" rel="stylesheet" />
+	
+	<style type="text/css">
+		.slideshow {
+			max-width: 600px;
+			margin: 0 auto;
+		}
+		.slideshow ul {
+			margin:0;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="slideshow">
+		<ul class="bxslider">
+			<li><img src="images/nemo.jpg" /></li>
+			<li><img src="images/toystory.jpg" /></li>
+			<li><img src="images/up.jpg" /></li>
+			<li><img src="images/walle.jpg" /></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				mode: 'fade'
+			});
+		});
+	</script>
+</body>
+</html>

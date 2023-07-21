@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>responsive video</title>
+  <style>
+    div {
+      position: relative;
+      padding-bottom: 56.25%; /* this is 16:9 aspect ratio */
+      padding-top: 25px;
+      height: 0;
+    }
+    
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/qtegdw6VkcI" frameborder="0" allowfullscreen></iframe>
+  </div>
+</body>
+</html>

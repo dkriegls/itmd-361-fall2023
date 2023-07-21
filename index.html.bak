@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" id="calendar">
+<head>
+  <meta charset="utf-8" />
+  <title>ITMD 361: Fundamentals of Web Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="stylesheet" href="css/screen.css" media="screen" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!--<script async src="js/site.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
+</head>
+<body>
+  <div id="page">
+    <header id="header">
+      <h1><small>ITMD 361&#x3a; <!--UPDATE-->Spring 2023</small> Fundamentals&nbsp;of Web Development</h1>
+      <p class="tagline">
+        This class covers the foundational principles of web development. How to research client-server
+        architecture according to current open standards. Taught by
+        <a href="#instructor">Professor Daniel Krieglstein</a>. Course developed by IIT 
+        Professors <a href="https://appliedtech.iit.edu/people/brian-bailey">Brian Bailey</a>, 
+        <a href="https://humansciences.iit.edu/faculty/karl-stolley">Dr. Karl Stolley</a>, &amp; Dr. Daniel Krieglstein.
+      </p>
+      <nav id="navigation">
+        <ul class="nav">
+          <li id="nav-cal"><a href="#">Calendar</a></li>
+          <li id="nav-pro"><a href="projects.html">Projects</a></li>
+          <li id="nav-pol"><a href="syllabus.html">Syllabus</a></li>
+          <li id="nav-lnk"><a href="links.html">Links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="content">
+      <article class="primary">
+        <h2 class="label">Course Calendar</h2>
+        <p id="tablep">
+          All due dates are terminal at 11:59CT. Work turned in after their time and date will
+          be late and subject to an award of 0 points.
+        </p>
+        <section class="topics">
+          <h3>Topic Schedule&#58;</h3>
+          <div id="accordion">
+            <button class="accordion"><!--UPDATE-->01/10 &#8212; Week 1</button>
+            <div>
+              <h4 class="topic">Introduction</h4>
+              <ol>
+                <li><em>HTML5 for Web Designers, 2nd ed.</em>,
+                  <ul><li class="nobullet">Introduction; Chapters 1-2</li></ul>
+                </li>
+                <li><em>Pragmatic Version Control Using Git</em>,
+                  <ul><li class="nobullet">Preface; Chapters 1-3 &#x28;Part II&#x29;</li></ul>
+                </li>
+                <li>Get familiar with Mozilla Developer Network <a href="links.html">Links</a></li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->01/17 &#8212; Week 2</button>
+            <div>
+              <h4 Class="topic">Intro to Technologies</h4>
+              <ol>
+                <li><em>HTML5 for Web Designers, 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 5-6</li></ul>
+                </li>
+                <li><em>Pragmatic Version Control Using Git</em>,
+                  <ul><li class="nobullet">Chapters 4-9 &#x28;Part II&#x29;</li></ul>
+                </li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->01/24 &#8212; Week 3</button>
+            <div>
+              <h4 Class="topic">HTML Basics</h4>
+              <ol class="alignleft">
+                <li><em>Responsive Web Design 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 1 &#x26; 4</li></ul>
+                </li>
+                <li>Marcotte, &#x201c;<a href="http://alistapart.com/article/responsive-web-design">Responisve Web Design</a>&#x201d;</li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->01/31 &#8212; Week 4</button>
+            <div>
+              <h4 Class="topic">HTML Forms</h4>
+              <ol class="alignleft">
+                <li><em>Responsive Web Design 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 3</li></ul>
+                </li>
+                <li><em>HTML5 for Web Designers, 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 3</li></ul>
+                </li>
+                <li>Stolley, 
+                  <ul>
+                    <li class="nobullet">&#x201c;<a href="https://github.com/karlstolley/drc-accessible-images">Part I &amp; II, read all .md files</a>&#x201d;</li>                  </ul>
+                </li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->02/07 &#8212; Week 5</button>
+            <div>
+              <h4 Class="topic">CSS Basics</h4>
+              <ol class="alignleft">
+                <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">CSS Syntax</a></li>
+                <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors">CSS Selectors</a></li>
+                <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">CSS Units of Measure: length</a></li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->02/14 &#8212; Week 6</button>
+            <div>
+              <h4 Class="topic">CSS Fonts and Floats</h4>
+              <ol class="alignleft">
+                <li><em>On Web Typography</em>,
+                  <ul><li class="nobullet">Introduction; Chapters 1-3</li></ul>
+                </li>
+                <li><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy">Type anatomy and classifications</a></li>
+                <li>Rutter, &#x201c;<a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Compose to a Vertical Rhythm</a>&#x201d;</li>
+                <li><a href="http://www.modularscale.com/">Modularscale.com</a></li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->02/21 &#8212; Week 7</button>
+            <div>
+              <h4 Class="topic">CSS Positions and Layouts</h4>
+              <ol class="alignleft">
+                <li><em>Responsive Web Design 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 2 &#x26; 5</li></ul>
+                </li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->02/28 &#8212; Week 8</button>
+            <div>
+              <h4 Class="topic">CSS Layout Demo</h4>
+              <ol class="alignleft">
+                <li>Chris Coyier, &#x201c;<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a>&#x201d;</li>
+                <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Basic concepts of flexbox</a></li>
+              </ol>
+            </div>           
+            <button class="accordion"><!--UPDATE-->03/07 &#8212; Week 9</button>
+            <div>
+              <h4 Class="topic">CSS Animations, Responsive Design</h4>
+            </div>
+            <button class="accordion"><!--UPDATE-->03/14 NO CLASS: Spring Break!</button>
+            <div>
+              <h4 Class="topic">Homework: Have Fun!</h4>
+            </div>
+            <button class="accordion"><!--UPDATE-->03/21 &#8212; Week 10</button>
+            <div>
+              <h4 Class="topic">JavaScript Intro</h4>
+              <ol class="alignleft">
+                <li><em>Eloquent JavaScript 2nd ed.</em>,
+                  <ul><li class="nobullet">Introduction; Chapters 1-2</li></ul>
+                </li>
+                <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript Reference</a></li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->03/28 &#8212; Week 11</button>
+            <div>
+              <h4 Class="topic">JavaScript Programing Basics</h4>
+              <ol class="alignleft">
+                <li><em>Eloquent JavaScript 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 3-4</li></ul>
+                </li>
+                <li>Brown, &#x201c;<a href="https://www.sitepoint.com/why-use-javascript-style-guide/">Why I Use a JavaScript Style Guide...</a>&#x201d;</li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->04/04 &#8212; Week 12</button>
+            <div>
+              <h4 Class="topic">Google API, Sliders</h4>
+              <ol class="alignleft">
+                <li><em>Eloquent JavaScript 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 5-6, 8-10</li></ul>
+                </li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->04/11 &#8212; Week 13</button>
+            <div>
+              <h4 Class="topic">Frameworks and SASS</h4>
+              <ol class="alignleft">
+                <li><em>Eloquent JavaScript 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 12-15, 17-18</li></ul>
+                </li>
+                <li><em>HTML5 for Web Designers, 2nd ed.</em>,
+                  <ul><li class="nobullet">Chapters 4</li></ul>
+                </li>
+                <li>Traversy Media, &#x201c;<a href="https://www.youtube.com/watch?v=DEu5xYEZx18">Foundation Framework Crash Course</a>&#x201d;</li>
+              </ol>
+            </div>
+            <button class="accordion"><!--UPDATE-->04/18 &#8212; Week 14</button>
+            <div>
+              <h4 Class="topic">TBA</h4>
+            </div>
+            <button class="accordion"><!--UPDATE-->04/25 &#8212; Week 15</button>
+            <div>
+              <h4 Class="topic">Lab: Final Project</h4>
+            </div>
+            <button class="accordion"><!--UPDATE-->No Class/Finals Week</button>
+            <div>
+              <h4 Class="topic">Good Luck on Finals!</h4>
+            </div>
+          </div>
+        </section>
+        
+        <section class="due-dates">
+          <button class="homework">
+            <h3>Labs</h3>
+          </button>
+          <div>
+            <p class="redfont">Work which fails HTML or CSS validation will receive a 50&#x25; point reduction!</p>
+            <table>
+              <tr class="tablehead">
+                <td class="firstrow">Date</td>
+                <td class="secondrow">Week</td>
+                <td>Task Due</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><!--UPDATE--><a href="https://github.com/dkriegls/itmd-361-spring2023/tree/main/labs">Labs</a></td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->01/17</td>
+                <td class="alignleft">Week 2</td>
+                <td class="alignleft">Lab-1</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->01/24</td>
+                <td class="alignleft">Week 3</td>
+                <td class="alignleft">Lab-2</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->01/31</td>
+                <td class="alignleft">Week 4</td>
+                <td class="alignleft">Lab-3</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->02/07</td>
+                <td class="alignleft">Week 5</td>
+                <td class="alignleft">Lab-4</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->02/28</td>
+                <td class="alignleft">Week 8</td>
+                <td class="alignleft">Lab-5</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->03/07</td>
+                <td class="alignleft">Week 9</td>
+                <td class="alignleft">Lab-6</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->04/04</td>
+                <td class="alignleft">Week 12</td>
+                <td class="alignleft">Lab-7</td>
+              </tr>
+            </table>
+          </div>
+          <button class="homework">
+            <h3>Projects</h3>
+          </button>
+          <div>
+            <p class="redfont">Work which fails HTML or CSS validation will receive a 50&#x25; point reduction!</p>
+            <table>
+              <tr class="tablehead">
+                <td class="firstrow">Date</td>
+                <td class="secondrow">Week</td>
+                <td>Task Due</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><a href="projects.html#project-one">Project One</a></td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->02/07</td>
+                <td class="alignleft">Week 5</td>
+                <td class="alignleft">First Deliverable</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->02/14</td>
+                <td class="alignleft">Week 6</td>
+                <td class="alignleft">Comments Due</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->02/21</td>
+                <td class="alignleft">Week 7</td>
+                <td class="alignleft">Final Deliverable</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><a href="projects.html#project-two">Project Two</a></td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->03/07</td>
+                <td class="alignleft">Week 9</td>
+                <td class="alignleft">First Deliverable</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->03/21</td>
+                <td class="alignleft">Week 10</td>
+                <td class="alignleft">Comments Due</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->04/04</td>
+                <td class="alignleft">Week 12</td>
+                <td class="alignleft">Final Deliverable</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><a href="projects.html#project-three">Project Three</a></td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->04/18</td>
+                <td class="alignleft">Week 14</td>
+                <td class="alignleft">First Turn In</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->04/25</td>
+                <td class="alignleft">Week 15</td>
+                <td class="alignleft">Comments Due</td>
+              </tr>
+              <tr>
+                <td><!--UPDATE-->05/02</td>
+                <td class="alignleft">Finals</td>
+                <td class="alignleft">Final Turn In (only if you didn't get the map working)</td>
+              </tr>
+            </table>
+          </div>
+        </section>        
+      </article>
+    </main>
+    
+    <aside id="instructor">
+      <h3>Instructor</h3>
+      <ul>
+        <li><a href="https://appliedtech.iit.edu/people/daniel-krieglstein">Prof. Daniel Krieglstein</a></li>
+        <li><a href="mailto:dkriegls@gmail.com">dkriegls@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/danielkrieglstein">danielkrieglstein</a> on Linkedin</li>
+        <li id="office-hours">
+          <strong>Office hours are by request just before or after class or via GChat when available</strong>. 
+          Email is the best way to get my attention. I try my best to make students a priority.
+        </li>
+      </ul>
+    </aside>
+
+    <footer id="footer">
+      <p class="fineprint">
+        Course site design by <a href="https://karlstolley.com/">Karl Stolley</a> and Daniel Krieglstein.
+        Syllabus licensed under
+        <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons</a>.
+        Source hosted on GitHub. Big thanks to
+        <a href="https://basecamp.com">Basecamp</a> for free university access.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

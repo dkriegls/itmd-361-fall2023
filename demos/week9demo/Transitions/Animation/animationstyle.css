@@ -1,0 +1,54 @@
+a.smooth {
+  display: block; 
+  text-decoration:none; 
+  text-align: center; 
+  padding: 1em 2em;
+  margin: 0 0 50px 0;
+  width: 10em;
+  border-radius: 1.5em;
+  color: #fff;
+  background-color: mediumblue;
+/*Start Transition decelerations*/
+  transition-property: background-color, width, border-radius;
+  transition-duration: 1s, 3s, 2s;
+}
+  /*transition end states*/
+a.smooth:hover, a.smooth:focus {
+  background-color: red; 
+  width: 15em;
+  border-radius: 0;
+}
+/*Start Animation decelerations*/
+
+/* Firefox only - prefix for webkit*/
+@-webkit-keyframes colors {
+  0% { background-color: red; }
+  20% { background-color: orange; } 
+  40% { background-color: yellow; } 
+  60% { background-color: green; } 
+  80% { background-color: blue; } 
+  100% { background-color: purple; }
+}
+@keyframes colors {
+  0% { background-color: red; }
+  20% { background-color: orange; } 
+  40% { background-color: yellow; } 
+  60% { background-color: green; } 
+  80% { background-color: blue; } 
+  100% { background-color: purple; }
+}
+
+#magic {
+  width: 200px;
+  height: 200px;
+  -webkit-animation-name: colors; 
+  -webkit-animation-duration: 5s; 
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-direction: alternate;
+  animation-name: colors; 
+  animation-duration: 10s; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
+}

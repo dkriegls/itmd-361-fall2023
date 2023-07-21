@@ -1,0 +1,67 @@
+#main-header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+height: 80px;
+}
+
+#company-name{
+  font-size: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#main-navbar {
+	background-color: blue;
+}
+
+#navbar-container {
+	width: 100%;
+  /*text-align only works if you turn the content into inline-block*/
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  /*inline-block treats it like inline text so text-align works on it*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  text-decoration: underline;
+
+}
+
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#main-navbar #onpage {
+  background-color: navy;
+}

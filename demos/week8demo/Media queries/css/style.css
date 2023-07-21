@@ -1,0 +1,145 @@
+#main-header {
+	background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+#main-header img.logo {
+	margin: 20px;
+	margin-left: 125px;
+	float: left;
+}
+
+#main-header #company-name {
+	float: left;
+	margin-top: 40px;
+	font-family: 'Sigmar One', cursive;
+	font-size: 32px;
+	color: #fff;
+}
+
+#header-container {
+	position: relative;
+}
+
+#logo-link {
+	width: 76px;
+	height: 120px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-image: url('../img/logo.png');
+	text-indent: -9999px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#main-navbar {
+	background-color: blue;
+}
+
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+	background-color: #000;
+}
+
+#second-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#second-nav li {
+	float: left;
+}
+
+#second-nav li::before {
+	content: "|";
+	color: #fff;
+}
+
+#second-nav li:first-child::before {
+	content: "";
+}
+
+#second-nav li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#second-nav li a:hover {
+	text-decoration: underline;
+}
+
+a[href$=".pdf"] {
+
+}
+
+#file:after {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+body {
+	background-image: url('../img/gstripe.png');
+}
+
+@media screen and (min-width: 600px) {
+
+	body {
+		background-image: url('../img/repeating.png');
+  }
+
+  #main-navbar ul li a:hover {
+    background-color: yellow;
+  }
+}
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div {margin-top: 15px}
+  </style>
+</head>
+<body>
+  <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+    <fieldset>
+    <legend>Text Entry Controls</legend>
+      <div>
+        <label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
+      </div>
+      <div>
+        <label><input type="email" name="email_field" placeholder="email here"></label>
+      </div>
+      <div>
+      <label for="our_textarea">Comments:</label>
+        <textarea cols="30" rows="10" name="textarea_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
+      </div>
+      <div>
+        <label>Password: <input type="password" name="password_field"></label>
+      </div>
+    </fieldset>
+    <div>
+      <label>Red: <input type="radio" name="radio_field" value="r"></label>
+      <label>Green: <input type="radio" name="radio_field" value="g" checked="checked"></label>
+      <label for="blueradio">Blue: </label><input type="radio" name="radio_field" value="babushka" id="blueradio">
+    </div>
+    <div>
+      <label>Red: <input type="checkbox" name="checkbox_field[]" value="red"></label><br>
+      <label>Blue: <input type="checkbox" name="checkbox_field[]" value="blue" ></label><br>
+      <label>Green: <input type="checkbox" name="checkbox_field[]" value="green" checked></label><br>
+      <label>Yellow: <input type="checkbox" name="checkbox_field[]" value="dog"></label>
+    </div>
+    <div>
+      <select name="menu_field--------">
+        <option value="R">Red</option>
+        <option value="G" selected>Green</option>
+        <option value="B">Blue</option>
+        <option value="P">Pink</option>
+      </select>
+    </div>
+    <div>
+      <select size="5" multiple="multiple" name="menu_field[]">
+        <optgroup label="Primary">
+          <option value="R">Red</option>
+          <option value="G" selected>Green</option>
+          <option value="B">Blue</option>
+        </optgroup>
+        <optgroup label="Other">
+          <option value="Y">Yellow</option>
+          <option value="P">Purple</option>
+          <option value="W">White</option>
+        </optgroup>
+      </select>
+    </div>
+    <div>
+      <input type="file" name="file_field">
+    </div>
+    <div>
+      <input type="hidden" name="hidden_field" value="Prof K">
+    </div>
+    <input type="submit" value="Sing Up NOW!">
+    <input type="reset" value="lets clear some data">
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

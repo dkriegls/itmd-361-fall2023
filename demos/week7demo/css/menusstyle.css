@@ -1,0 +1,123 @@
+nav#horz1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav#horz1 ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+nav#horz1 ul li a {
+  display: block;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+}
+
+nav#horz1 ul li a:hover {
+  background-color: #800;
+  color: yellow;
+  border-radius: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+nav#horz2 {
+  background-color: #777;
+}
+
+nav#horz2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav#horz2 ul li {
+  float: left;
+}
+
+nav#horz2 ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+nav#horz2 ul li a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+nav#horz3 {
+  background-color: #777;
+}
+
+nav#horz3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav#horz3 ul li {
+  float: left;
+  padding: 20px; /*padding is on the <li> instead of the <a>*/
+}
+
+nav#horz3 ul li a {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+nav#horz3 ul li a:hover {
+  text-decoration: underline red;
+}
+
+nav#vert ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav#vert ul li {
+  margin: 5px 0;
+}
+
+nav#vert ul li a {
+  display: block;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0 8px 0;
+  border-radius: 4px;
+}
+
+nav#vert ul li a:hover {
+  background-color: #800;
+}
+
+
+

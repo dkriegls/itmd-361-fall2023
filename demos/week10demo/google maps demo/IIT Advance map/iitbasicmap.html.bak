@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="iitstyle.css">
+	<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+	<script asyncsrc src="iitbasicmap.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="canvas"></div>
+  </div>
+</body>
+</html>

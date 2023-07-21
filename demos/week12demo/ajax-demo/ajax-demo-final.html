@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ajax Demo</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Ajax Examples</h1>
+        <div style="min-height: 200px; border: 1px solid blue; padding: 10px; margin: 10px 0">
+            <h2>JavaScript Ajax Example</h2>
+            <button onclick="jsAjaxHandler()" type="button">Get DateTime Table</button>
+            <button onclick="deleteJSTable()" id="delete-js-btn" style="display:none;" type="button">Delete Table</button>
+
+            <div id="js-content"></div>
+        </div>
+        
+        <div style="min-height: 200px; border: 1px solid red; padding: 10px;">
+            <h2>jQuery Ajax Example</h2>
+            <button onclick="jqAjaxHandler()" type="button">Get DateTime Table</button>
+            <button onclick="deleteJQTable()" id="delete-jq-btn" style="display:none;" type="button">Delete Table</button>
+
+            <div id="jq-content"></div>
+        </div>
+
+        <script>
+            function jsAjaxHandler(){
+
+                function getXMLHttpRequest(){
+                    if (window.XMLHttpRequest) {
+                        return new XMLHttpRequest();
+                    }
+                    else {
+                        try {
+                            return new ActiveXObject("MSXML2.XMLHTTP.3.0");
+                        }
+                        catch(ex) {
+                            return null;
+                        }
+                    }
+                }
+
+                var xhr = getXMLHttpRequest();
+                //var xhr = new XMLHttpRequest(); //This is all you would need for IE7+
+                var xhr_results = '';
+                if (xhr != null) {
+                    xhr.open("GET", "datetable.php", true);
+                    xhr.onreadystatechange = function(){
+                        if (xhr.readyState == 4) {
+                            xhr_results = xhr.responseText;
+                            document.getElementById('js-content').innerHTML = xhr_results;
+                            document.getElementById('delete-js-btn').style.display = 'inline';
+                        }
+                    };
+                    xhr.send();
+                }
+
+            }
+
+
+            function jqAjaxHandler(){
+                
+                $.ajax({
+                    type: "GET",
+                    url: "datetable.php",
+                    dataType: "html",
+                    success: function(results){
+                        $('#jq-content').html(results);
+                        $('#delete-jq-btn').css('display', 'inline');
+                    }
+                });
+
+            }
+
+
+            function deleteJSTable(){
+                var element = document.getElementById('js-content');
+                while (element.firstChild) {
+                    element.removeChild(element.firstChild);
+                }
+                document.getElementById('delete-js-btn').style.display = 'none';
+            }
+
+
+            function deleteJQTable(){
+                $('#jq-content').empty();
+                $('#delete-jq-btn').css('display', 'none');
+            }
+        </script>
+    </body>
+</html>
