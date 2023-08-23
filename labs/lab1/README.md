@@ -2,6 +2,6 @@
 
 <ol>
   <li>Use the index.html template to create your first website.</li>
-  <li>We will work through this together in class.</li>
-  <li>Watch the Week 1 Lecture to learn how to complete this assignment.</li>
+  <li>Watch the Week One Lecture to learn how to complete this assignment.</li>
+  <li>If you still need help, we will work through this together in class on Week Two.</li>
 </ol>
