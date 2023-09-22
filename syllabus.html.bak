@@ -18,7 +18,7 @@
 <body>
 <div id="page">
   <header id="header">
-    <h1><small>ITMD 361&#x3a; <!--UPDATE-->Spring 2023</small> Fundamentals&nbsp;of Web Development</h1>
+    <h1><small>ITMD 361&#x3a; <!--UPDATE-->Fall 2023</small> Fundamentals&nbsp;of Web Development</h1>
     <p class="tagline">
       This class covers the foundational principles of web development. How to research client-server
       architecture according to current open standards. Taught by
@@ -108,7 +108,7 @@
         </div>
         <div class="height-fix">
           <p><!--UPDATE-->Tuesdays 6:25pm to 9:05pm</p>
-          <p>John T. Rettaliata Engg Center, Room 258</p>
+          <p>Herman Hall Mezzanine (Upstairs)</p>
           <p>Or online via Blackboard's Collaborate Ultra</p>
         </div>
         <div class="boxheader">
@@ -169,7 +169,7 @@
         <div class="height-fix">
           <ul>
             <li>An email account and personal computer</li>
-            <li>A browser or cloud-based bookmarking scheme to aid your information management</li>
+            <li>A browser or cloud-based bookmarking scheme to aid your information management.</li>
             <li>
               A Basecamp account (invite will be sent to your IIT email); Basecamp, not Blackboard, will be
               where we coordinate our work and communication in- and outside of class.
@@ -185,7 +185,6 @@
                   TextWrangler (mac), or Sublime Text (multi-platform).
                 </li>
                 <li>Git or GitHub Desktop</li>
-                <li>Node.js</li>
                 <li>Image-editing software (such as the free and open-source GIMP)</li>
                 <li>At least three different browsers (e.g., Chrome, Opera, Firefox, or Edge)
                 </li>
@@ -219,7 +218,7 @@
           <h3 id="websites">Course Web Site</h3>
         </div>
         <div class="height-fix">
-          <!--UPDATE--><p>https://dkriegls.github.io/itmd-361-spring2023/</p>
+          <!--UPDATE--><p>https://dkriegls.github.io/itmd-361-fall2023/</p>
         </div>
         <div class="boxheader">
           <h3 id="blackboard">Blackboard</h3>
