@@ -12,7 +12,7 @@
 <body>
   <div id="page">
     <header id="header">
-      <h1><small>ITMD 361&#x3a; <!--UPDATE-->Spring 2023</small> Fundamentals&nbsp;of Web Development</h1>
+      <h1><small>ITMD 361&#x3a; <!--UPDATE-->Fall 2023</small> Fundamentals&nbsp;of Web Development</h1>
       <p class="tagline">
         This class covers the foundational principles of web development. How to research client-server
         architecture according to current open standards. Taught by
@@ -38,7 +38,7 @@
             <h4>Course Resources</h4>
             <ul>
               <li><a href="https://3.basecamp.com/3649431/sign_in">Basecamp</a> (<a href="https://basecamp.com/help/3/guides/apps">apps</a>)</li>
-              <li><!--UPDATE--><a href="https://github.com/dkriegls/itmd-361-spring2023">Class Github Repo</a></li>
+              <li><!--UPDATE--><a href="https://github.com/dkriegls/itmd-361-fall2023">Class Github Repo</a></li>
             </ul>
           </section>
           <section id="essential-tools">
